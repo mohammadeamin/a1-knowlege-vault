@@ -1,0 +1,47 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.font-inter{
+  font-family: "Inter", sans-serif;
+  font-optical-sizing: auto;
+}
+header{
+    width: 1600px;
+    color: #FFFFFF;
+    padding: 16px 120px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+nav .manu{
+    display: flex;
+    list-style-type: none;
+    gap: 32px;
+}
+.logo{
+    max-width: 139px;
+    height: 60px;
+}
+nav .manu a{
+    font-size: 16px;
+    font-weight: 500;
+    color: #000000;
+    text-decoration: none;
+}
+.btn{
+    background-color: #30B868;
+    width: 164px;
+    height: 44px;
+    border: none;
+    border-radius: 4px;
+    color: white;
+    font-size: 16px;
+    font-weight: 600;
+}
+
